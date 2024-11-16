@@ -1,0 +1,14 @@
+Package: RHals
+Title: Alternating Least Squares Estimation of the Renshaw-Haberman Model
+Version: 0.1.0
+Authors@R: 
+    c(
+      person("Yiping", "Guo", email = "y246guo@uwaterloo.ca", role = c("aut", "cre")),
+      person("Johnny", "Li", email = "johnny.li@cuhk.edu.hk", role = "aut")
+    )
+Description: An R package for fitting the Renshaw-Haberman model and its extension using alternating least squares estimation method.
+License: GPL-3
+Depends: R (>= 4.4.1), StMoMo
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Remotes: amvillegas/StMoMo@GroupLasso
